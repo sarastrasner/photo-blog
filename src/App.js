@@ -1,4 +1,4 @@
-import Blog from './components/Blog.js'
+import Blog from './components/Blog'
 
 function App() {
   return (

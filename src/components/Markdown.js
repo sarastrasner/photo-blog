@@ -56,5 +56,7 @@ const options = {
 };
 
 export default function Markdown(props) {
+  console.log('posts in Markdown component', props);
+  //return(<ReactMarkdown># Hello, *world*!</ReactMarkdown>);
   return <ReactMarkdown options={options} {...props} />;
 }
